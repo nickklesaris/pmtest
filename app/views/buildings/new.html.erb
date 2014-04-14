@@ -1,0 +1,9 @@
+<%= simple_form_for(@building) do |f| %>
+<%= f.input :address, required: true%>
+<%= f.input :city, required: true %>
+<%= f.input :state, required: true %>
+<%= f.input :postcode, required: true %>
+<%= f.input :description %>
+<%= f.association :owner, label_method: :full_name %>
+<%= f.submit %>
+<% end %>

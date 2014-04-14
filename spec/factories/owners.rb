@@ -2,9 +2,9 @@
 
 FactoryGirl.define do
   factory :owner do
-    fname "MyString"
-    lname "MyString"
-    email "MyString"
-    company "MyString"
+    fname "Janet"
+    lname "Craven"
+    sequence(:email) {|n| "jtbcraven#{n}@aol.com"}
+    company "MIT"
   end
 end

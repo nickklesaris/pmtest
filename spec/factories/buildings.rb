@@ -2,10 +2,11 @@
 
 FactoryGirl.define do
   factory :building do
-    address "MyString"
-    city "MyString"
-    state "MyString"
-    postcode "MyString"
-    description "MyText"
+    address "60 Francis Wyman RD"
+    city "Burlington"
+    state "MA"
+    postcode "01803"
+    description ""
+    owner
   end
 end
