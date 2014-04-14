@@ -1,0 +1,7 @@
+<%= simple_form_for(@owner) do |f| %>
+  <%= f.input :fname, required: true %>
+  <%= f.input :lname, required: true  %>
+  <%= f.input :email, required: true  %>
+  <%= f.input :company %>
+  <%= f.submit %>
+<% end %>
